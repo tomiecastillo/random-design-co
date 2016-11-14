@@ -121,8 +121,14 @@ textarea {
    .i {
     float: right;
    }
-
-
+   .main-section {
+     background-image: url(../img/purple-bg.jpeg);
+     height: 330px;
+   }
+   .main-section h2 {
+     text-align: center;
+     max-width: 100px;
+   }
    .page-footer {
      text-align: center;
    }
