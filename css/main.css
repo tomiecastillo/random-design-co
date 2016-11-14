@@ -118,9 +118,14 @@ textarea {
      text-transform: uppercase;
      margin: 0;
    }
+   .i {
+    float: right;
+   }
 
 
-
+   .page-footer {
+     text-align: center;
+   }
 
 
 
