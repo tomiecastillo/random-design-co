@@ -95,8 +95,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* apply a natural box layout model to all elements, but allowing components to change */
+   html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
 
+   body {
+     border: 1px solid red;
+   }
 
+   .page-header {
+     background-color: #000;
+     color: #fff;
+     padding: 1em;
+   }
+
+   .page-header h1 {
+     font-size: 1em
+     text-transform: uppercase;
+     margin: 0;
+   }
 
 
 
